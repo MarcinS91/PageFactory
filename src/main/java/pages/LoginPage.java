@@ -21,8 +21,8 @@ public class LoginPage {
     WebElement signInBtn;
 
     public void logToApp() {
-        emailInput.sendKeys("michal.dobrzycki@coderslab.pl");
-        passwordInput.sendKeys("CodersLab");
+        emailInput.sendKeys("");
+        passwordInput.sendKeys("");
         signInBtn.click();
     }
 }
